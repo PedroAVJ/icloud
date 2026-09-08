@@ -15,10 +15,10 @@ test("plugin metadata is synchronized", async () => {
   const claude = await json(".claude-plugin", "plugin.json");
   const pkg = await json("package.json");
   assert.equal(codex.name, "icloud");
-  assert.equal(codex.version, "0.1.1");
+  assert.equal(codex.version, "0.1.2");
   assert.equal(claude.version, codex.version);
   assert.equal(pkg.version, codex.version);
-  assert.equal(codex.interface.category, "Cloud");
+  assert.equal(codex.interface.category, "Productivity");
   assert.equal(codex.repository, "https://github.com/PedroAVJ/icloud");
   await access(join(root, "assets", "icloud-icon.svg"));
   await access(join(root, "skills", "icloud-drive", "SKILL.md"));

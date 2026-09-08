@@ -1,6 +1,6 @@
 {
   "name": "icloud",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
   "author": {
     "name": "PedroAVJ",
@@ -22,7 +22,7 @@
     "shortDescription": "Safely work with files in iCloud Drive",
     "longDescription": "A private macOS tool for browsing, verifying, and safely archiving files in the user's iCloud Drive. The plugin contains procedures only; the records themselves remain in iCloud Drive.",
     "developerName": "PedroAVJ",
-    "category": "Cloud",
+    "category": "Productivity",
     "capabilities": [
       "Interactive",
       "Read",

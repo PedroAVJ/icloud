@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/icloud",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
