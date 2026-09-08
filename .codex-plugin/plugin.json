@@ -1,0 +1,41 @@
+{
+  "name": "icloud",
+  "version": "0.1.1",
+  "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/icloud",
+  "repository": "https://github.com/PedroAVJ/icloud",
+  "license": "MIT",
+  "keywords": [
+    "icloud",
+    "icloud-drive",
+    "files",
+    "archive",
+    "records"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "iCloud",
+    "shortDescription": "Safely work with files in iCloud Drive",
+    "longDescription": "A private macOS tool for browsing, verifying, and safely archiving files in the user's iCloud Drive. The plugin contains procedures only; the records themselves remain in iCloud Drive.",
+    "developerName": "PedroAVJ",
+    "category": "Cloud",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#147EFB",
+    "composerIcon": "./assets/icloud-icon.svg",
+    "logo": "./assets/icloud-icon.svg",
+    "screenshots": [],
+    "defaultPrompt": [
+      "What is stored in this iCloud Drive folder?",
+      "Verify this file in iCloud Drive.",
+      "Archive this file to iCloud Drive safely."
+    ]
+  }
+}

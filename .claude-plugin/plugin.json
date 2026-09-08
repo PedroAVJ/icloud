@@ -1,0 +1,20 @@
+{
+  "name": "icloud",
+  "version": "0.1.1",
+  "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/icloud",
+  "repository": "https://github.com/PedroAVJ/icloud",
+  "license": "MIT",
+  "keywords": [
+    "icloud",
+    "icloud-drive",
+    "files",
+    "archive",
+    "records"
+  ],
+  "skills": "./skills/"
+}

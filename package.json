@@ -1,0 +1,19 @@
+{
+  "name": "@pedroavj/icloud",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAVJ/icloud.git"
+  },
+  "homepage": "https://github.com/PedroAVJ/icloud#readme",
+  "bugs": {
+    "url": "https://github.com/PedroAVJ/icloud/issues"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
